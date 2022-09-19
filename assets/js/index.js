@@ -16,7 +16,8 @@ console.log(`--------------------------------`);
 
 Array.from(wrapper.children).forEach((item) => {
   //   console.log(item);
-  console.log("The length is: ", item.children.length);
+  //   console.log("The length is: ", item.children.length);
+  console.log("The length is: ", item.childElementCount);
   Array.from(item.children).forEach((el, i) => {
     console.log(el.nodeName);
 
